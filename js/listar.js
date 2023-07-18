@@ -62,8 +62,8 @@ export function mostrarDatosClima(datos){
     const contenedor = document.getElementById('contenedor')
     let li =
     `
-    <li>
-    <div class="card border border-0 shadow-lg p-3 mb-5 text-white bg-primary rounded color-white col-6 mx-auto mt-3" style="width: 18rem;" >
+
+    <div class="card border border-0 shadow-lg p-3 mb-5 text-white bg-primary rounded color-white col-6 mx-4 mt-3" style="width: 18rem;" >
   
     <div class="card-body text-center">
   
@@ -80,7 +80,7 @@ export function mostrarDatosClima(datos){
     
     </div>
     </div>
-    </li>
+
     `
     contenedor.innerHTML += li
 }
